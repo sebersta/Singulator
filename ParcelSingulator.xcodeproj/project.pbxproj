@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* ParcelSingulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* ParcelSingulatorApp.swift */; };
+		A10000000000000000000002 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Keychain.swift */; };
+		A10000000000000000000003 /* ParcelSingulatorExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* ParcelSingulatorExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A10000000000000000000004 /* ParcelSingulatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ParcelSingulatorExtension.swift */; };
+		A10000000000000000000005 /* EmailText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* EmailText.swift */; };
+		A10000000000000000000006 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Keychain.swift */; };
+		A10000000000000000000007 /* EmailTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* EmailTextTests.swift */; };
+		A10000000000000000000008 /* EmailText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* EmailText.swift */; };
+		A10000000000000000000009 /* ShipmentProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* ShipmentProcessing.swift */; };
+		A1000000000000000000000A /* ShipmentProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* ShipmentProcessing.swift */; };
+		A1000000000000000000000B /* EmailText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* EmailText.swift */; };
+		A1000000000000000000000C /* ShipmentProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* ShipmentProcessing.swift */; };
+		A1000000000000000000000D /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Keychain.swift */; };
+		A1000000000000000000000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* Assets.xcassets */; };
+		A20000000000000000000001 /* ShipmentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* ShipmentQueue.swift */; };
+		A20000000000000000000002 /* ShipmentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* ShipmentQueue.swift */; };
+		A20000000000000000000003 /* ShipmentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* ShipmentQueue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000002;
+			remoteInfo = ParcelSingulatorExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D10000000000000000000004 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000000000000000000003 /* ParcelSingulatorExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* ParcelSingulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelSingulatorApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* EmailText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailText.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* ParcelSingulatorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelSingulatorExtension.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000006 /* ParcelSingulatorExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ParcelSingulatorExtension.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000007 /* EmailTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* Parcel Singulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parcel Singulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000009 /* ParcelSingulatorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ParcelSingulatorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000000A /* ParcelSingulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParcelSingulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000000B /* ParcelSingulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ParcelSingulator.entitlements; sourceTree = "<group>"; };
+		B1000000000000000000000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1000000000000000000000D /* ShipmentProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentProcessing.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20000000000000000000001 /* ShipmentQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentQueue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000000000000000000012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000000000000000000022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000002 /* ParcelSingulator */,
+				C10000000000000000000003 /* Shared */,
+				C10000000000000000000004 /* ParcelSingulatorExtension */,
+				C10000000000000000000005 /* ParcelSingulatorTests */,
+				C10000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C10000000000000000000002 /* ParcelSingulator */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000E /* Assets.xcassets */,
+				B10000000000000000000001 /* ParcelSingulatorApp.swift */,
+				B1000000000000000000000C /* Info.plist */,
+				B1000000000000000000000B /* ParcelSingulator.entitlements */,
+			);
+			path = ParcelSingulator;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000003 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* Keychain.swift */,
+				B10000000000000000000003 /* EmailText.swift */,
+				B1000000000000000000000D /* ShipmentProcessing.swift */,
+				B20000000000000000000001 /* ShipmentQueue.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000004 /* ParcelSingulatorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000004 /* ParcelSingulatorExtension.swift */,
+				B10000000000000000000005 /* Info.plist */,
+				B10000000000000000000006 /* ParcelSingulatorExtension.entitlements */,
+			);
+			path = ParcelSingulatorExtension;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000005 /* ParcelSingulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000007 /* EmailTextTests.swift */,
+			);
+			path = ParcelSingulatorTests;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000008 /* Parcel Singulator.app */,
+				B10000000000000000000009 /* ParcelSingulatorExtension.appex */,
+				B1000000000000000000000A /* ParcelSingulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* ParcelSingulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10000000000000000000013 /* Build configuration list for PBXNativeTarget "ParcelSingulator" */;
+			buildPhases = (
+				D10000000000000000000001 /* Sources */,
+				D10000000000000000000002 /* Frameworks */,
+				D10000000000000000000003 /* Resources */,
+				D10000000000000000000004 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = ParcelSingulator;
+			productName = "Parcel Singulator";
+			productReference = B10000000000000000000008 /* Parcel Singulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10000000000000000000002 /* ParcelSingulatorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10000000000000000000023 /* Build configuration list for PBXNativeTarget "ParcelSingulatorExtension" */;
+			buildPhases = (
+				D10000000000000000000011 /* Sources */,
+				D10000000000000000000012 /* Frameworks */,
+				D10000000000000000000013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParcelSingulatorExtension;
+			productName = ParcelSingulatorExtension;
+			productReference = B10000000000000000000009 /* ParcelSingulatorExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E10000000000000000000003 /* ParcelSingulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10000000000000000000033 /* Build configuration list for PBXNativeTarget "ParcelSingulatorTests" */;
+			buildPhases = (
+				D10000000000000000000021 /* Sources */,
+				D10000000000000000000022 /* Frameworks */,
+				D10000000000000000000023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParcelSingulatorTests;
+			productName = ParcelSingulatorTests;
+			productReference = B1000000000000000000000A /* ParcelSingulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					E10000000000000000000002 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					E10000000000000000000003 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = G10000000000000000000003 /* Build configuration list for PBXProject "ParcelSingulator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C10000000000000000000001;
+			productRefGroup = C10000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* ParcelSingulator */,
+				E10000000000000000000002 /* ParcelSingulatorExtension */,
+				E10000000000000000000003 /* ParcelSingulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000000000000000000013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000000000000000000023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* ParcelSingulatorApp.swift in Sources */,
+				A10000000000000000000002 /* Keychain.swift in Sources */,
+				A10000000000000000000009 /* ShipmentProcessing.swift in Sources */,
+				A20000000000000000000001 /* ShipmentQueue.swift in Sources */,
+				A1000000000000000000000B /* EmailText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000004 /* ParcelSingulatorExtension.swift in Sources */,
+				A10000000000000000000005 /* EmailText.swift in Sources */,
+				A10000000000000000000006 /* Keychain.swift in Sources */,
+				A1000000000000000000000A /* ShipmentProcessing.swift in Sources */,
+				A20000000000000000000002 /* ShipmentQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000000000000000000021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000007 /* EmailTextTests.swift in Sources */,
+				A10000000000000000000008 /* EmailText.swift in Sources */,
+				A1000000000000000000000C /* ShipmentProcessing.swift in Sources */,
+				A20000000000000000000003 /* ShipmentQueue.swift in Sources */,
+				A1000000000000000000000D /* Keychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10000000000000000000002 /* ParcelSingulatorExtension */;
+			targetProxy = F10000000000000000000002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		G10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		G10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		G10000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ParcelSingulator/ParcelSingulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HVQYZSB2F;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ParcelSingulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebersta.ParcelSingulator;
+				PRODUCT_NAME = "Parcel Singulator";
+			};
+			name = Debug;
+		};
+		G10000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ParcelSingulator/ParcelSingulator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HVQYZSB2F;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ParcelSingulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebersta.ParcelSingulator;
+				PRODUCT_NAME = "Parcel Singulator";
+			};
+			name = Release;
+		};
+		G10000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = ParcelSingulatorExtension/ParcelSingulatorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HVQYZSB2F;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ParcelSingulatorExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebersta.ParcelSingulator.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		G10000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = ParcelSingulatorExtension/ParcelSingulatorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HVQYZSB2F;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ParcelSingulatorExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebersta.ParcelSingulator.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		G10000000000000000000031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HVQYZSB2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebersta.ParcelSingulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		G10000000000000000000032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HVQYZSB2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebersta.ParcelSingulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G10000000000000000000003 /* Build configuration list for PBXProject "ParcelSingulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10000000000000000000001 /* Debug */,
+				G10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10000000000000000000013 /* Build configuration list for PBXNativeTarget "ParcelSingulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10000000000000000000011 /* Debug */,
+				G10000000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10000000000000000000023 /* Build configuration list for PBXNativeTarget "ParcelSingulatorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10000000000000000000021 /* Debug */,
+				G10000000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10000000000000000000033 /* Build configuration list for PBXNativeTarget "ParcelSingulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10000000000000000000031 /* Debug */,
+				G10000000000000000000032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000000 /* Project object */;
+}
